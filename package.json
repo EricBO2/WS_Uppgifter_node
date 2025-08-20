@@ -1,9 +1,10 @@
 {
   "name": "ws_uppgifter_node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
     "url": "https://github.com/EricBO2/WS_Uppgifter_node/issues"
   },
   "homepage": "https://github.com/EricBO2/WS_Uppgifter_node#readme",
+  "type": "module",
   "description": "",
   "dependencies": {
     "express": "^5.1.0"
